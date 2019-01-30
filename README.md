@@ -17,11 +17,14 @@ let behavior = GKBehavior.behavior {
 ```
 
 ```
-    let entity = GKEntity.entity { entity in
-        entity.agent2D {
-            $0.mass = 1.0
-        }
+let spriteEntity = GKEntity.entity { entity in
+    entity.skNodeComponent {
+        $0.node = sprite
     }
+    entity.agent2D { agent in
+        agent.delegate = entity.components.filter { $0 is GKSKNodeComponent }.first? as? GKSKNodeComponent
+    }
+}
 
 ```
 
