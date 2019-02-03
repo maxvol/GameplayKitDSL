@@ -9,6 +9,15 @@
 import GameplayKit
 
 extension GKObstacle {
+    @objc
+    @discardableResult
+    func apply(_ closure: (GKObstacle) -> Void) -> GKObstacle {
+        closure(self)
+        return self
+    }
+}
+
+extension GKObstacle {
     
     public static func circle(radius: Float, apply closure: (GKCircleObstacle) -> Void) -> GKCircleObstacle {
         let circle = GKCircleObstacle(radius: radius)

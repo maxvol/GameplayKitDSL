@@ -17,7 +17,6 @@
 		94B74B7522071329002F98DF /* GKAgent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */; };
 		94B74B7622071329002F98DF /* GKBehavior+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39E22023F9900E24B9A /* GKBehavior+DSL.swift */; };
 		94B74B7722071329002F98DF /* GKObstacle+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A022023FC800E24B9A /* GKObstacle+DSL.swift */; };
-		94B74B782207132C002F98DF /* GKEntity+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39C22023F6B00E24B9A /* GKEntity+DSL.swift */; };
 		94B74B792207132C002F98DF /* GKAgent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */; };
 		94B74B7A2207132C002F98DF /* GKBehavior+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39E22023F9900E24B9A /* GKBehavior+DSL.swift */; };
 		94B74B7B2207132C002F98DF /* GKObstacle+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A022023FC800E24B9A /* GKObstacle+DSL.swift */; };
@@ -25,10 +24,15 @@
 		94B74B812207132F002F98DF /* GKAgent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */; };
 		94B74B822207132F002F98DF /* GKBehavior+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39E22023F9900E24B9A /* GKBehavior+DSL.swift */; };
 		94B74B832207132F002F98DF /* GKObstacle+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A022023FC800E24B9A /* GKObstacle+DSL.swift */; };
-		94B74B8422071334002F98DF /* GKEntity+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39C22023F6B00E24B9A /* GKEntity+DSL.swift */; };
 		94B74B8522071334002F98DF /* GKAgent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */; };
 		94B74B8622071334002F98DF /* GKBehavior+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39E22023F9900E24B9A /* GKBehavior+DSL.swift */; };
 		94B74B8722071334002F98DF /* GKObstacle+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A022023FC800E24B9A /* GKObstacle+DSL.swift */; };
+		94B74B9422071565002F98DF /* GKCircleObstacle+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B9322071565002F98DF /* GKCircleObstacle+DSL.swift */; };
+		94B74B952207156E002F98DF /* GKCircleObstacle+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B9322071565002F98DF /* GKCircleObstacle+DSL.swift */; };
+		94B74B972207158C002F98DF /* GKPolygonObstacle+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B962207158C002F98DF /* GKPolygonObstacle+DSL.swift */; };
+		94B74B982207159D002F98DF /* GKPolygonObstacle+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B962207158C002F98DF /* GKPolygonObstacle+DSL.swift */; };
+		94B74B9A220715B8002F98DF /* GKObstacleGraph+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B99220715B8002F98DF /* GKObstacleGraph+DSL.swift */; };
+		94B74B9B220715BF002F98DF /* GKObstacleGraph+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B99220715B8002F98DF /* GKObstacleGraph+DSL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,9 @@
 		94B74AD422071014002F98DF /* iOS_GameplayKitDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_GameplayKitDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B74AD922071014002F98DF /* iOS_GameplayKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_GameplayKitDSLTests.swift; sourceTree = "<group>"; };
 		94B74ADB22071014002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74B9322071565002F98DF /* GKCircleObstacle+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKCircleObstacle+DSL.swift"; sourceTree = "<group>"; };
+		94B74B962207158C002F98DF /* GKPolygonObstacle+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKPolygonObstacle+DSL.swift"; sourceTree = "<group>"; };
+		94B74B99220715B8002F98DF /* GKObstacleGraph+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKObstacleGraph+DSL.swift"; sourceTree = "<group>"; };
 		94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKAgent+DSL.swift"; sourceTree = "<group>"; };
 		94D5E39C22023F6B00E24B9A /* GKEntity+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKEntity+DSL.swift"; sourceTree = "<group>"; };
 		94D5E39E22023F9900E24B9A /* GKBehavior+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKBehavior+DSL.swift"; sourceTree = "<group>"; };
@@ -167,6 +174,9 @@
 				94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */,
 				94D5E39E22023F9900E24B9A /* GKBehavior+DSL.swift */,
 				94D5E3A022023FC800E24B9A /* GKObstacle+DSL.swift */,
+				94B74B9322071565002F98DF /* GKCircleObstacle+DSL.swift */,
+				94B74B962207158C002F98DF /* GKPolygonObstacle+DSL.swift */,
+				94B74B99220715B8002F98DF /* GKObstacleGraph+DSL.swift */,
 			);
 			path = DSL;
 			sourceTree = "<group>";
@@ -345,10 +355,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B74B9422071565002F98DF /* GKCircleObstacle+DSL.swift in Sources */,
 				94B74B7722071329002F98DF /* GKObstacle+DSL.swift in Sources */,
 				94B74B7622071329002F98DF /* GKBehavior+DSL.swift in Sources */,
+				94B74B972207158C002F98DF /* GKPolygonObstacle+DSL.swift in Sources */,
 				94B74B7422071329002F98DF /* GKEntity+DSL.swift in Sources */,
 				94B74B7522071329002F98DF /* GKAgent+DSL.swift in Sources */,
+				94B74B9A220715B8002F98DF /* GKObstacleGraph+DSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +371,6 @@
 			files = (
 				94B74B8522071334002F98DF /* GKAgent+DSL.swift in Sources */,
 				94B74B8722071334002F98DF /* GKObstacle+DSL.swift in Sources */,
-				94B74B8422071334002F98DF /* GKEntity+DSL.swift in Sources */,
 				94B74ABE22070FDB002F98DF /* macOS_GameplayKitDSLTests.swift in Sources */,
 				94B74B8622071334002F98DF /* GKBehavior+DSL.swift in Sources */,
 			);
@@ -368,10 +380,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B74B952207156E002F98DF /* GKCircleObstacle+DSL.swift in Sources */,
 				94B74B832207132F002F98DF /* GKObstacle+DSL.swift in Sources */,
 				94B74B822207132F002F98DF /* GKBehavior+DSL.swift in Sources */,
+				94B74B982207159D002F98DF /* GKPolygonObstacle+DSL.swift in Sources */,
 				94B74B802207132F002F98DF /* GKEntity+DSL.swift in Sources */,
 				94B74B812207132F002F98DF /* GKAgent+DSL.swift in Sources */,
+				94B74B9B220715BF002F98DF /* GKObstacleGraph+DSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +396,6 @@
 			files = (
 				94B74B792207132C002F98DF /* GKAgent+DSL.swift in Sources */,
 				94B74B7B2207132C002F98DF /* GKObstacle+DSL.swift in Sources */,
-				94B74B782207132C002F98DF /* GKEntity+DSL.swift in Sources */,
 				94B74ADA22071014002F98DF /* iOS_GameplayKitDSLTests.swift in Sources */,
 				94B74B7A2207132C002F98DF /* GKBehavior+DSL.swift in Sources */,
 			);
