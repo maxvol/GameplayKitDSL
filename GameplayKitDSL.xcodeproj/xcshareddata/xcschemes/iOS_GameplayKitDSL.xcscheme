@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "94D5E31222023E7800E24B9A"
-               BuildableName = "GameplayKitDSL.framework"
-               BlueprintName = "GameplayKitDSL"
+               BlueprintIdentifier = "94B74ACB22071013002F98DF"
+               BuildableName = "iOS_GameplayKitDSL.framework"
+               BlueprintName = "iOS_GameplayKitDSL"
                ReferencedContainer = "container:GameplayKitDSL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "94D5E31B22023E7900E24B9A"
-               BuildableName = "GameplayKitDSLTests.xctest"
-               BlueprintName = "GameplayKitDSLTests"
+               BlueprintIdentifier = "94B74AD322071014002F98DF"
+               BuildableName = "iOS_GameplayKitDSLTests.xctest"
+               BlueprintName = "iOS_GameplayKitDSLTests"
                ReferencedContainer = "container:GameplayKitDSL.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94D5E31222023E7800E24B9A"
-            BuildableName = "GameplayKitDSL.framework"
-            BlueprintName = "GameplayKitDSL"
+            BlueprintIdentifier = "94B74ACB22071013002F98DF"
+            BuildableName = "iOS_GameplayKitDSL.framework"
+            BlueprintName = "iOS_GameplayKitDSL"
             ReferencedContainer = "container:GameplayKitDSL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94D5E31222023E7800E24B9A"
-            BuildableName = "GameplayKitDSL.framework"
-            BlueprintName = "GameplayKitDSL"
+            BlueprintIdentifier = "94B74ACB22071013002F98DF"
+            BuildableName = "iOS_GameplayKitDSL.framework"
+            BlueprintName = "iOS_GameplayKitDSL"
             ReferencedContainer = "container:GameplayKitDSL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94D5E31222023E7800E24B9A"
-            BuildableName = "GameplayKitDSL.framework"
-            BlueprintName = "GameplayKitDSL"
+            BlueprintIdentifier = "94B74ACB22071013002F98DF"
+            BuildableName = "iOS_GameplayKitDSL.framework"
+            BlueprintName = "iOS_GameplayKitDSL"
             ReferencedContainer = "container:GameplayKitDSL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

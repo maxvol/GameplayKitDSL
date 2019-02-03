@@ -1,15 +1,15 @@
 //
-//  GameplayKitDSLTests.swift
-//  GameplayKitDSLTests
+//  macOS_GameplayKitDSLTests.swift
+//  macOS_GameplayKitDSLTests
 //
-//  Created by Maxim Volgin on 30/01/2019.
+//  Created by Maxim Volgin on 03/02/2019.
 //  Copyright © 2019 Maxim Volgin. All rights reserved.
 //
 
 import XCTest
-@testable import GameplayKitDSL
+@testable import macOS_GameplayKitDSL
 
-class GameplayKitDSLTests: XCTestCase {
+class macOS_GameplayKitDSLTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

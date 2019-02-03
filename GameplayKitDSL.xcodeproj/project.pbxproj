@@ -7,32 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94D5E31D22023E7900E24B9A /* GameplayKitDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D5E31322023E7800E24B9A /* GameplayKitDSL.framework */; };
-		94D5E32222023E7900E24B9A /* GameplayKitDSLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E32122023E7900E24B9A /* GameplayKitDSLTests.swift */; };
-		94D5E32422023E7900E24B9A /* GameplayKitDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D5E31622023E7800E24B9A /* GameplayKitDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94D5E39B22023F3600E24B9A /* GKAgent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */; };
-		94D5E39D22023F6B00E24B9A /* GKEntity+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39C22023F6B00E24B9A /* GKEntity+DSL.swift */; };
-		94D5E39F22023F9900E24B9A /* GKBehavior+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39E22023F9900E24B9A /* GKBehavior+DSL.swift */; };
-		94D5E3A122023FC800E24B9A /* GKObstacle+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A022023FC800E24B9A /* GKObstacle+DSL.swift */; };
+		94B74AB922070FDB002F98DF /* macOS_GameplayKitDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B74AB022070FDA002F98DF /* macOS_GameplayKitDSL.framework */; };
+		94B74ABE22070FDB002F98DF /* macOS_GameplayKitDSLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74ABD22070FDB002F98DF /* macOS_GameplayKitDSLTests.swift */; };
+		94B74AC022070FDB002F98DF /* macOS_GameplayKitDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B74AB222070FDA002F98DF /* macOS_GameplayKitDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B74AD522071014002F98DF /* iOS_GameplayKitDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B74ACC22071013002F98DF /* iOS_GameplayKitDSL.framework */; };
+		94B74ADA22071014002F98DF /* iOS_GameplayKitDSLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74AD922071014002F98DF /* iOS_GameplayKitDSLTests.swift */; };
+		94B74ADC22071014002F98DF /* iOS_GameplayKitDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B74ACE22071013002F98DF /* iOS_GameplayKitDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B74B7422071329002F98DF /* GKEntity+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39C22023F6B00E24B9A /* GKEntity+DSL.swift */; };
+		94B74B7522071329002F98DF /* GKAgent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */; };
+		94B74B7622071329002F98DF /* GKBehavior+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39E22023F9900E24B9A /* GKBehavior+DSL.swift */; };
+		94B74B7722071329002F98DF /* GKObstacle+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A022023FC800E24B9A /* GKObstacle+DSL.swift */; };
+		94B74B782207132C002F98DF /* GKEntity+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39C22023F6B00E24B9A /* GKEntity+DSL.swift */; };
+		94B74B792207132C002F98DF /* GKAgent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */; };
+		94B74B7A2207132C002F98DF /* GKBehavior+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39E22023F9900E24B9A /* GKBehavior+DSL.swift */; };
+		94B74B7B2207132C002F98DF /* GKObstacle+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A022023FC800E24B9A /* GKObstacle+DSL.swift */; };
+		94B74B802207132F002F98DF /* GKEntity+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39C22023F6B00E24B9A /* GKEntity+DSL.swift */; };
+		94B74B812207132F002F98DF /* GKAgent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */; };
+		94B74B822207132F002F98DF /* GKBehavior+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39E22023F9900E24B9A /* GKBehavior+DSL.swift */; };
+		94B74B832207132F002F98DF /* GKObstacle+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A022023FC800E24B9A /* GKObstacle+DSL.swift */; };
+		94B74B8422071334002F98DF /* GKEntity+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39C22023F6B00E24B9A /* GKEntity+DSL.swift */; };
+		94B74B8522071334002F98DF /* GKAgent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */; };
+		94B74B8622071334002F98DF /* GKBehavior+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39E22023F9900E24B9A /* GKBehavior+DSL.swift */; };
+		94B74B8722071334002F98DF /* GKObstacle+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A022023FC800E24B9A /* GKObstacle+DSL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		94D5E31E22023E7900E24B9A /* PBXContainerItemProxy */ = {
+		94B74ABA22070FDB002F98DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 94D5E30A22023E7800E24B9A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 94D5E31222023E7800E24B9A;
-			remoteInfo = GameplayKitDSL;
+			remoteGlobalIDString = 94B74AAF22070FDA002F98DF;
+			remoteInfo = macOS_GameplayKitDSL;
+		};
+		94B74AD622071014002F98DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D5E30A22023E7800E24B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B74ACB22071013002F98DF;
+			remoteInfo = iOS_GameplayKitDSL;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		94D5E31322023E7800E24B9A /* GameplayKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GameplayKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94D5E31622023E7800E24B9A /* GameplayKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameplayKitDSL.h; sourceTree = "<group>"; };
-		94D5E31722023E7800E24B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94D5E31C22023E7900E24B9A /* GameplayKitDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameplayKitDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		94D5E32122023E7900E24B9A /* GameplayKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayKitDSLTests.swift; sourceTree = "<group>"; };
-		94D5E32322023E7900E24B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74AB022070FDA002F98DF /* macOS_GameplayKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = macOS_GameplayKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74AB222070FDA002F98DF /* macOS_GameplayKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macOS_GameplayKitDSL.h; sourceTree = "<group>"; };
+		94B74AB322070FDB002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74AB822070FDB002F98DF /* macOS_GameplayKitDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOS_GameplayKitDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74ABD22070FDB002F98DF /* macOS_GameplayKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_GameplayKitDSLTests.swift; sourceTree = "<group>"; };
+		94B74ABF22070FDB002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74ACC22071013002F98DF /* iOS_GameplayKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS_GameplayKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74ACE22071013002F98DF /* iOS_GameplayKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_GameplayKitDSL.h; sourceTree = "<group>"; };
+		94B74ACF22071013002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74AD422071014002F98DF /* iOS_GameplayKitDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_GameplayKitDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74AD922071014002F98DF /* iOS_GameplayKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_GameplayKitDSLTests.swift; sourceTree = "<group>"; };
+		94B74ADB22071014002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKAgent+DSL.swift"; sourceTree = "<group>"; };
 		94D5E39C22023F6B00E24B9A /* GKEntity+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKEntity+DSL.swift"; sourceTree = "<group>"; };
 		94D5E39E22023F9900E24B9A /* GKBehavior+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKBehavior+DSL.swift"; sourceTree = "<group>"; };
@@ -40,30 +68,83 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		94D5E31022023E7800E24B9A /* Frameworks */ = {
+		94B74AAD22070FDA002F98DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94D5E31922023E7900E24B9A /* Frameworks */ = {
+		94B74AB522070FDB002F98DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D5E31D22023E7900E24B9A /* GameplayKitDSL.framework in Frameworks */,
+				94B74AB922070FDB002F98DF /* macOS_GameplayKitDSL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74AC922071013002F98DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74AD122071014002F98DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B74AD522071014002F98DF /* iOS_GameplayKitDSL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94B74AB122070FDA002F98DF /* macOS_GameplayKitDSL */ = {
+			isa = PBXGroup;
+			children = (
+				94B74AB222070FDA002F98DF /* macOS_GameplayKitDSL.h */,
+				94B74AB322070FDB002F98DF /* Info.plist */,
+			);
+			path = macOS_GameplayKitDSL;
+			sourceTree = "<group>";
+		};
+		94B74ABC22070FDB002F98DF /* macOS_GameplayKitDSLTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B74ABD22070FDB002F98DF /* macOS_GameplayKitDSLTests.swift */,
+				94B74ABF22070FDB002F98DF /* Info.plist */,
+			);
+			path = macOS_GameplayKitDSLTests;
+			sourceTree = "<group>";
+		};
+		94B74ACD22071013002F98DF /* iOS_GameplayKitDSL */ = {
+			isa = PBXGroup;
+			children = (
+				94B74ACE22071013002F98DF /* iOS_GameplayKitDSL.h */,
+				94B74ACF22071013002F98DF /* Info.plist */,
+			);
+			path = iOS_GameplayKitDSL;
+			sourceTree = "<group>";
+		};
+		94B74AD822071014002F98DF /* iOS_GameplayKitDSLTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B74AD922071014002F98DF /* iOS_GameplayKitDSLTests.swift */,
+				94B74ADB22071014002F98DF /* Info.plist */,
+			);
+			path = iOS_GameplayKitDSLTests;
+			sourceTree = "<group>";
+		};
 		94D5E30922023E7800E24B9A = {
 			isa = PBXGroup;
 			children = (
 				94D5E39922023F0800E24B9A /* DSL */,
-				94D5E31522023E7800E24B9A /* GameplayKitDSL */,
-				94D5E32022023E7900E24B9A /* GameplayKitDSLTests */,
+				94B74AB122070FDA002F98DF /* macOS_GameplayKitDSL */,
+				94B74ABC22070FDB002F98DF /* macOS_GameplayKitDSLTests */,
+				94B74ACD22071013002F98DF /* iOS_GameplayKitDSL */,
+				94B74AD822071014002F98DF /* iOS_GameplayKitDSLTests */,
 				94D5E31422023E7800E24B9A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,28 +152,12 @@
 		94D5E31422023E7800E24B9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94D5E31322023E7800E24B9A /* GameplayKitDSL.framework */,
-				94D5E31C22023E7900E24B9A /* GameplayKitDSLTests.xctest */,
+				94B74AB022070FDA002F98DF /* macOS_GameplayKitDSL.framework */,
+				94B74AB822070FDB002F98DF /* macOS_GameplayKitDSLTests.xctest */,
+				94B74ACC22071013002F98DF /* iOS_GameplayKitDSL.framework */,
+				94B74AD422071014002F98DF /* iOS_GameplayKitDSLTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		94D5E31522023E7800E24B9A /* GameplayKitDSL */ = {
-			isa = PBXGroup;
-			children = (
-				94D5E31622023E7800E24B9A /* GameplayKitDSL.h */,
-				94D5E31722023E7800E24B9A /* Info.plist */,
-			);
-			path = GameplayKitDSL;
-			sourceTree = "<group>";
-		};
-		94D5E32022023E7900E24B9A /* GameplayKitDSLTests */ = {
-			isa = PBXGroup;
-			children = (
-				94D5E32122023E7900E24B9A /* GameplayKitDSLTests.swift */,
-				94D5E32322023E7900E24B9A /* Info.plist */,
-			);
-			path = GameplayKitDSLTests;
 			sourceTree = "<group>";
 		};
 		94D5E39922023F0800E24B9A /* DSL */ = {
@@ -109,51 +174,95 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		94D5E30E22023E7800E24B9A /* Headers */ = {
+		94B74AAB22070FDA002F98DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D5E32422023E7900E24B9A /* GameplayKitDSL.h in Headers */,
+				94B74AC022070FDB002F98DF /* macOS_GameplayKitDSL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74AC722071013002F98DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B74ADC22071014002F98DF /* iOS_GameplayKitDSL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		94D5E31222023E7800E24B9A /* GameplayKitDSL */ = {
+		94B74AAF22070FDA002F98DF /* macOS_GameplayKitDSL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94D5E32722023E7900E24B9A /* Build configuration list for PBXNativeTarget "GameplayKitDSL" */;
+			buildConfigurationList = 94B74AC522070FDB002F98DF /* Build configuration list for PBXNativeTarget "macOS_GameplayKitDSL" */;
 			buildPhases = (
-				94D5E30E22023E7800E24B9A /* Headers */,
-				94D5E30F22023E7800E24B9A /* Sources */,
-				94D5E31022023E7800E24B9A /* Frameworks */,
-				94D5E31122023E7800E24B9A /* Resources */,
+				94B74AAB22070FDA002F98DF /* Headers */,
+				94B74AAC22070FDA002F98DF /* Sources */,
+				94B74AAD22070FDA002F98DF /* Frameworks */,
+				94B74AAE22070FDA002F98DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GameplayKitDSL;
-			productName = GameplayKitDSL;
-			productReference = 94D5E31322023E7800E24B9A /* GameplayKitDSL.framework */;
+			name = macOS_GameplayKitDSL;
+			productName = macOS_GameplayKitDSL;
+			productReference = 94B74AB022070FDA002F98DF /* macOS_GameplayKitDSL.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		94D5E31B22023E7900E24B9A /* GameplayKitDSLTests */ = {
+		94B74AB722070FDB002F98DF /* macOS_GameplayKitDSLTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94D5E32A22023E7900E24B9A /* Build configuration list for PBXNativeTarget "GameplayKitDSLTests" */;
+			buildConfigurationList = 94B74AC622070FDB002F98DF /* Build configuration list for PBXNativeTarget "macOS_GameplayKitDSLTests" */;
 			buildPhases = (
-				94D5E31822023E7900E24B9A /* Sources */,
-				94D5E31922023E7900E24B9A /* Frameworks */,
-				94D5E31A22023E7900E24B9A /* Resources */,
+				94B74AB422070FDB002F98DF /* Sources */,
+				94B74AB522070FDB002F98DF /* Frameworks */,
+				94B74AB622070FDB002F98DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				94D5E31F22023E7900E24B9A /* PBXTargetDependency */,
+				94B74ABB22070FDB002F98DF /* PBXTargetDependency */,
 			);
-			name = GameplayKitDSLTests;
-			productName = GameplayKitDSLTests;
-			productReference = 94D5E31C22023E7900E24B9A /* GameplayKitDSLTests.xctest */;
+			name = macOS_GameplayKitDSLTests;
+			productName = macOS_GameplayKitDSLTests;
+			productReference = 94B74AB822070FDB002F98DF /* macOS_GameplayKitDSLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94B74ACB22071013002F98DF /* iOS_GameplayKitDSL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B74ADD22071014002F98DF /* Build configuration list for PBXNativeTarget "iOS_GameplayKitDSL" */;
+			buildPhases = (
+				94B74AC722071013002F98DF /* Headers */,
+				94B74AC822071013002F98DF /* Sources */,
+				94B74AC922071013002F98DF /* Frameworks */,
+				94B74ACA22071013002F98DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_GameplayKitDSL;
+			productName = iOS_GameplayKitDSL;
+			productReference = 94B74ACC22071013002F98DF /* iOS_GameplayKitDSL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94B74AD322071014002F98DF /* iOS_GameplayKitDSLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B74AE022071014002F98DF /* Build configuration list for PBXNativeTarget "iOS_GameplayKitDSLTests" */;
+			buildPhases = (
+				94B74AD022071014002F98DF /* Sources */,
+				94B74AD122071014002F98DF /* Frameworks */,
+				94B74AD222071014002F98DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B74AD722071014002F98DF /* PBXTargetDependency */,
+			);
+			name = iOS_GameplayKitDSLTests;
+			productName = iOS_GameplayKitDSLTests;
+			productReference = 94B74AD422071014002F98DF /* iOS_GameplayKitDSLTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -166,11 +275,16 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Maxim Volgin";
 				TargetAttributes = {
-					94D5E31222023E7800E24B9A = {
+					94B74AAF22070FDA002F98DF = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
 					};
-					94D5E31B22023E7900E24B9A = {
+					94B74AB722070FDB002F98DF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					94B74ACB22071013002F98DF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					94B74AD322071014002F98DF = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -187,21 +301,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94D5E31222023E7800E24B9A /* GameplayKitDSL */,
-				94D5E31B22023E7900E24B9A /* GameplayKitDSLTests */,
+				94B74AAF22070FDA002F98DF /* macOS_GameplayKitDSL */,
+				94B74AB722070FDB002F98DF /* macOS_GameplayKitDSLTests */,
+				94B74ACB22071013002F98DF /* iOS_GameplayKitDSL */,
+				94B74AD322071014002F98DF /* iOS_GameplayKitDSLTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		94D5E31122023E7800E24B9A /* Resources */ = {
+		94B74AAE22070FDA002F98DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94D5E31A22023E7900E24B9A /* Resources */ = {
+		94B74AB622070FDB002F98DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74ACA22071013002F98DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74AD222071014002F98DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,36 +341,248 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		94D5E30F22023E7800E24B9A /* Sources */ = {
+		94B74AAC22070FDA002F98DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D5E3A122023FC800E24B9A /* GKObstacle+DSL.swift in Sources */,
-				94D5E39F22023F9900E24B9A /* GKBehavior+DSL.swift in Sources */,
-				94D5E39D22023F6B00E24B9A /* GKEntity+DSL.swift in Sources */,
-				94D5E39B22023F3600E24B9A /* GKAgent+DSL.swift in Sources */,
+				94B74B7722071329002F98DF /* GKObstacle+DSL.swift in Sources */,
+				94B74B7622071329002F98DF /* GKBehavior+DSL.swift in Sources */,
+				94B74B7422071329002F98DF /* GKEntity+DSL.swift in Sources */,
+				94B74B7522071329002F98DF /* GKAgent+DSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94D5E31822023E7900E24B9A /* Sources */ = {
+		94B74AB422070FDB002F98DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D5E32222023E7900E24B9A /* GameplayKitDSLTests.swift in Sources */,
+				94B74B8522071334002F98DF /* GKAgent+DSL.swift in Sources */,
+				94B74B8722071334002F98DF /* GKObstacle+DSL.swift in Sources */,
+				94B74B8422071334002F98DF /* GKEntity+DSL.swift in Sources */,
+				94B74ABE22070FDB002F98DF /* macOS_GameplayKitDSLTests.swift in Sources */,
+				94B74B8622071334002F98DF /* GKBehavior+DSL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74AC822071013002F98DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B74B832207132F002F98DF /* GKObstacle+DSL.swift in Sources */,
+				94B74B822207132F002F98DF /* GKBehavior+DSL.swift in Sources */,
+				94B74B802207132F002F98DF /* GKEntity+DSL.swift in Sources */,
+				94B74B812207132F002F98DF /* GKAgent+DSL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74AD022071014002F98DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B74B792207132C002F98DF /* GKAgent+DSL.swift in Sources */,
+				94B74B7B2207132C002F98DF /* GKObstacle+DSL.swift in Sources */,
+				94B74B782207132C002F98DF /* GKEntity+DSL.swift in Sources */,
+				94B74ADA22071014002F98DF /* iOS_GameplayKitDSLTests.swift in Sources */,
+				94B74B7A2207132C002F98DF /* GKBehavior+DSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		94D5E31F22023E7900E24B9A /* PBXTargetDependency */ = {
+		94B74ABB22070FDB002F98DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94D5E31222023E7800E24B9A /* GameplayKitDSL */;
-			targetProxy = 94D5E31E22023E7900E24B9A /* PBXContainerItemProxy */;
+			target = 94B74AAF22070FDA002F98DF /* macOS_GameplayKitDSL */;
+			targetProxy = 94B74ABA22070FDB002F98DF /* PBXContainerItemProxy */;
+		};
+		94B74AD722071014002F98DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B74ACB22071013002F98DF /* iOS_GameplayKitDSL */;
+			targetProxy = 94B74AD622071014002F98DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		94B74AC122070FDB002F98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = macOS_GameplayKitDSL/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxvol.GameplayKitDSL;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		94B74AC222070FDB002F98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = macOS_GameplayKitDSL/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxvol.GameplayKitDSL;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		94B74AC322070FDB002F98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOS_GameplayKitDSLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "maxvol.macOS-GameplayKitDSLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		94B74AC422070FDB002F98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOS_GameplayKitDSLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "maxvol.macOS-GameplayKitDSLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		94B74ADE22071014002F98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iOS_GameplayKitDSL/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxvol.GameplayKitDSL;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94B74ADF22071014002F98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iOS_GameplayKitDSL/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxvol.GameplayKitDSL;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94B74AE122071014002F98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_GameplayKitDSLTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maxvol.iOS-GameplayKitDSLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94B74AE222071014002F98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_GameplayKitDSLTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maxvol.iOS-GameplayKitDSLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		94D5E32522023E7900E24B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -294,6 +636,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -352,6 +695,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -363,121 +707,50 @@
 			};
 			name = Release;
 		};
-		94D5E32822023E7900E24B9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GameplayKitDSL/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxvol.GameplayKitDSL;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		94D5E32922023E7900E24B9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GameplayKitDSL/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxvol.GameplayKitDSL;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		94D5E32B22023E7900E24B9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GameplayKitDSLTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxvol.GameplayKitDSLTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		94D5E32C22023E7900E24B9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GameplayKitDSLTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxvol.GameplayKitDSLTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		94B74AC522070FDB002F98DF /* Build configuration list for PBXNativeTarget "macOS_GameplayKitDSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B74AC122070FDB002F98DF /* Debug */,
+				94B74AC222070FDB002F98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B74AC622070FDB002F98DF /* Build configuration list for PBXNativeTarget "macOS_GameplayKitDSLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B74AC322070FDB002F98DF /* Debug */,
+				94B74AC422070FDB002F98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B74ADD22071014002F98DF /* Build configuration list for PBXNativeTarget "iOS_GameplayKitDSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B74ADE22071014002F98DF /* Debug */,
+				94B74ADF22071014002F98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B74AE022071014002F98DF /* Build configuration list for PBXNativeTarget "iOS_GameplayKitDSLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B74AE122071014002F98DF /* Debug */,
+				94B74AE222071014002F98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		94D5E30D22023E7800E24B9A /* Build configuration list for PBXProject "GameplayKitDSL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94D5E32522023E7900E24B9A /* Debug */,
 				94D5E32622023E7900E24B9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		94D5E32722023E7900E24B9A /* Build configuration list for PBXNativeTarget "GameplayKitDSL" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94D5E32822023E7900E24B9A /* Debug */,
-				94D5E32922023E7900E24B9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		94D5E32A22023E7900E24B9A /* Build configuration list for PBXNativeTarget "GameplayKitDSLTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94D5E32B22023E7900E24B9A /* Debug */,
-				94D5E32C22023E7900E24B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
