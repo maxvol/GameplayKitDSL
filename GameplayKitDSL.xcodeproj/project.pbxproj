@@ -39,6 +39,12 @@
 		94B74BA722072248002F98DF /* GKAgent3D+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74BA522072243002F98DF /* GKAgent3D+DSL.swift */; };
 		94B74BA92207231C002F98DF /* GKCompositeBehavior+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74BA82207231C002F98DF /* GKCompositeBehavior+DSL.swift */; };
 		94B74BAA22072331002F98DF /* GKCompositeBehavior+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74BA82207231C002F98DF /* GKCompositeBehavior+DSL.swift */; };
+		94B74BAC22072614002F98DF /* GKSKNodeComponent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74BAB22072614002F98DF /* GKSKNodeComponent+DSL.swift */; };
+		94B74BAE22072627002F98DF /* GKSCNNodeComponent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74BAD22072627002F98DF /* GKSCNNodeComponent+DSL.swift */; };
+		94B74BB022072632002F98DF /* GKComponent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74BAF22072632002F98DF /* GKComponent+DSL.swift */; };
+		94B74BB122072656002F98DF /* GKSKNodeComponent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74BAB22072614002F98DF /* GKSKNodeComponent+DSL.swift */; };
+		94B74BB222072656002F98DF /* GKSCNNodeComponent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74BAD22072627002F98DF /* GKSCNNodeComponent+DSL.swift */; };
+		94B74BB322072656002F98DF /* GKComponent+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74BAF22072632002F98DF /* GKComponent+DSL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +83,9 @@
 		94B74BA22207222E002F98DF /* GKAgent2D+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKAgent2D+DSL.swift"; sourceTree = "<group>"; };
 		94B74BA522072243002F98DF /* GKAgent3D+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKAgent3D+DSL.swift"; sourceTree = "<group>"; };
 		94B74BA82207231C002F98DF /* GKCompositeBehavior+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKCompositeBehavior+DSL.swift"; sourceTree = "<group>"; };
+		94B74BAB22072614002F98DF /* GKSKNodeComponent+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKSKNodeComponent+DSL.swift"; sourceTree = "<group>"; };
+		94B74BAD22072627002F98DF /* GKSCNNodeComponent+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKSCNNodeComponent+DSL.swift"; sourceTree = "<group>"; };
+		94B74BAF22072632002F98DF /* GKComponent+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKComponent+DSL.swift"; sourceTree = "<group>"; };
 		94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKAgent+DSL.swift"; sourceTree = "<group>"; };
 		94D5E39C22023F6B00E24B9A /* GKEntity+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKEntity+DSL.swift"; sourceTree = "<group>"; };
 		94D5E39E22023F9900E24B9A /* GKBehavior+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKBehavior+DSL.swift"; sourceTree = "<group>"; };
@@ -180,6 +189,9 @@
 			isa = PBXGroup;
 			children = (
 				94D5E39C22023F6B00E24B9A /* GKEntity+DSL.swift */,
+				94B74BAF22072632002F98DF /* GKComponent+DSL.swift */,
+				94B74BAB22072614002F98DF /* GKSKNodeComponent+DSL.swift */,
+				94B74BAD22072627002F98DF /* GKSCNNodeComponent+DSL.swift */,
 				94D5E39A22023F3600E24B9A /* GKAgent+DSL.swift */,
 				94B74BA22207222E002F98DF /* GKAgent2D+DSL.swift */,
 				94B74BA522072243002F98DF /* GKAgent3D+DSL.swift */,
@@ -367,10 +379,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B74BB022072632002F98DF /* GKComponent+DSL.swift in Sources */,
 				94B74B9422071565002F98DF /* GKCircleObstacle+DSL.swift in Sources */,
 				94B74BA622072243002F98DF /* GKAgent3D+DSL.swift in Sources */,
 				94B74B7722071329002F98DF /* GKObstacle+DSL.swift in Sources */,
 				94B74B7622071329002F98DF /* GKBehavior+DSL.swift in Sources */,
+				94B74BAE22072627002F98DF /* GKSCNNodeComponent+DSL.swift in Sources */,
+				94B74BAC22072614002F98DF /* GKSKNodeComponent+DSL.swift in Sources */,
 				94B74BA32207222E002F98DF /* GKAgent2D+DSL.swift in Sources */,
 				94B74BA92207231C002F98DF /* GKCompositeBehavior+DSL.swift in Sources */,
 				94B74B972207158C002F98DF /* GKPolygonObstacle+DSL.swift in Sources */,
@@ -395,10 +410,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B74BB322072656002F98DF /* GKComponent+DSL.swift in Sources */,
 				94B74B952207156E002F98DF /* GKCircleObstacle+DSL.swift in Sources */,
 				94B74BA722072248002F98DF /* GKAgent3D+DSL.swift in Sources */,
 				94B74B832207132F002F98DF /* GKObstacle+DSL.swift in Sources */,
 				94B74B822207132F002F98DF /* GKBehavior+DSL.swift in Sources */,
+				94B74BB222072656002F98DF /* GKSCNNodeComponent+DSL.swift in Sources */,
+				94B74BB122072656002F98DF /* GKSKNodeComponent+DSL.swift in Sources */,
 				94B74BA422072237002F98DF /* GKAgent2D+DSL.swift in Sources */,
 				94B74BAA22072331002F98DF /* GKCompositeBehavior+DSL.swift in Sources */,
 				94B74B982207159D002F98DF /* GKPolygonObstacle+DSL.swift in Sources */,

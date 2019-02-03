@@ -11,9 +11,16 @@ import GameplayKit
 extension GKAgent {
     @objc
     @discardableResult
-    public func apply(_ closure: (GKAgent) -> Void) -> GKAgent {
+    public override func apply(_ closure: (GKAgent) -> Void) -> GKAgent {
         closure(self)
         return self
+    }
+    
+    @discardableResult
+    public func behavior(_ behavior: GKBehavior, apply closure: (GKBehavior) -> Void) -> GKBehavior {
+        self.behavior = behavior
+        closure(behavior)
+        return behavior
     }
 }
 
