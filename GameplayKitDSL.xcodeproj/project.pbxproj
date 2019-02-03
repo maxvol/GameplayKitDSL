@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94B74AB922070FDB002F98DF /* macOS_GameplayKitDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B74AB022070FDA002F98DF /* macOS_GameplayKitDSL.framework */; };
+		94B74AB922070FDB002F98DF /* GameplayKitDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B74AB022070FDA002F98DF /* GameplayKitDSL.framework */; };
 		94B74ABE22070FDB002F98DF /* macOS_GameplayKitDSLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74ABD22070FDB002F98DF /* macOS_GameplayKitDSLTests.swift */; };
 		94B74AC022070FDB002F98DF /* macOS_GameplayKitDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B74AB222070FDA002F98DF /* macOS_GameplayKitDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94B74AD522071014002F98DF /* iOS_GameplayKitDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B74ACC22071013002F98DF /* iOS_GameplayKitDSL.framework */; };
+		94B74AD522071014002F98DF /* GameplayKitDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B74ACC22071013002F98DF /* GameplayKitDSL.framework */; };
 		94B74ADA22071014002F98DF /* iOS_GameplayKitDSLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74AD922071014002F98DF /* iOS_GameplayKitDSLTests.swift */; };
 		94B74ADC22071014002F98DF /* iOS_GameplayKitDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B74ACE22071013002F98DF /* iOS_GameplayKitDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94B74B7422071329002F98DF /* GKEntity+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E39C22023F6B00E24B9A /* GKEntity+DSL.swift */; };
@@ -53,13 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		94B74AB022070FDA002F98DF /* macOS_GameplayKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = macOS_GameplayKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74AB022070FDA002F98DF /* GameplayKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GameplayKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B74AB222070FDA002F98DF /* macOS_GameplayKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macOS_GameplayKitDSL.h; sourceTree = "<group>"; };
 		94B74AB322070FDB002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B74AB822070FDB002F98DF /* macOS_GameplayKitDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOS_GameplayKitDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B74ABD22070FDB002F98DF /* macOS_GameplayKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_GameplayKitDSLTests.swift; sourceTree = "<group>"; };
 		94B74ABF22070FDB002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94B74ACC22071013002F98DF /* iOS_GameplayKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS_GameplayKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74ACC22071013002F98DF /* GameplayKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GameplayKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B74ACE22071013002F98DF /* iOS_GameplayKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_GameplayKitDSL.h; sourceTree = "<group>"; };
 		94B74ACF22071013002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B74AD422071014002F98DF /* iOS_GameplayKitDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_GameplayKitDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B74AB922070FDB002F98DF /* macOS_GameplayKitDSL.framework in Frameworks */,
+				94B74AB922070FDB002F98DF /* GameplayKitDSL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B74AD522071014002F98DF /* iOS_GameplayKitDSL.framework in Frameworks */,
+				94B74AD522071014002F98DF /* GameplayKitDSL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,9 +159,9 @@
 		94D5E31422023E7800E24B9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94B74AB022070FDA002F98DF /* macOS_GameplayKitDSL.framework */,
+				94B74AB022070FDA002F98DF /* GameplayKitDSL.framework */,
 				94B74AB822070FDB002F98DF /* macOS_GameplayKitDSLTests.xctest */,
-				94B74ACC22071013002F98DF /* iOS_GameplayKitDSL.framework */,
+				94B74ACC22071013002F98DF /* GameplayKitDSL.framework */,
 				94B74AD422071014002F98DF /* iOS_GameplayKitDSLTests.xctest */,
 			);
 			name = Products;
@@ -218,7 +218,7 @@
 			);
 			name = macOS_GameplayKitDSL;
 			productName = macOS_GameplayKitDSL;
-			productReference = 94B74AB022070FDA002F98DF /* macOS_GameplayKitDSL.framework */;
+			productReference = 94B74AB022070FDA002F98DF /* GameplayKitDSL.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		94B74AB722070FDB002F98DF /* macOS_GameplayKitDSLTests */ = {
@@ -254,7 +254,7 @@
 			);
 			name = iOS_GameplayKitDSL;
 			productName = iOS_GameplayKitDSL;
-			productReference = 94B74ACC22071013002F98DF /* iOS_GameplayKitDSL.framework */;
+			productReference = 94B74ACC22071013002F98DF /* GameplayKitDSL.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		94B74AD322071014002F98DF /* iOS_GameplayKitDSLTests */ = {
@@ -436,7 +436,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = maxvol.GameplayKitDSL;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -462,7 +462,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = maxvol.GameplayKitDSL;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -528,7 +528,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = maxvol.GameplayKitDSL;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,7 +552,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = maxvol.GameplayKitDSL;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
