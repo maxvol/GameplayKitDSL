@@ -9,6 +9,15 @@
 import GameplayKit
 
 extension GKBehavior {
+    @objc
+    @discardableResult
+    public func apply(_ closure: (GKBehavior) -> Void) -> GKBehavior {
+        closure(self)
+        return self
+    }
+}
+
+extension GKBehavior {
     
     public static func composite(apply closure: (GKCompositeBehavior) -> Void) -> GKCompositeBehavior {
         let behavior = GKCompositeBehavior()

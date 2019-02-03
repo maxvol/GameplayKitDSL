@@ -11,7 +11,7 @@ import GameplayKit
 extension GKEntity {
     @objc
     @discardableResult
-    func apply(_ closure: (GKEntity) -> Void) -> GKEntity {
+    public func apply(_ closure: (GKEntity) -> Void) -> GKEntity {
         closure(self)
         return self
     }

@@ -11,7 +11,7 @@ import GameplayKit
 extension GKObstacle {
     @objc
     @discardableResult
-    func apply(_ closure: (GKObstacle) -> Void) -> GKObstacle {
+    public func apply(_ closure: (GKObstacle) -> Void) -> GKObstacle {
         closure(self)
         return self
     }

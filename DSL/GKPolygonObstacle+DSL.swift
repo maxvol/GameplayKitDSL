@@ -11,7 +11,7 @@ import GameplayKit
 extension GKPolygonObstacle {
     @objc
     @discardableResult
-    override func apply(_ closure: (GKPolygonObstacle) -> Void) -> GKPolygonObstacle {
+    public override func apply(_ closure: (GKPolygonObstacle) -> Void) -> GKPolygonObstacle {
         closure(self)
         return self
     }

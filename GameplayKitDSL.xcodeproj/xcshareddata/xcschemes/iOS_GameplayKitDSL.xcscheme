@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "94B74ACB22071013002F98DF"
-               BuildableName = "iOS_GameplayKitDSL.framework"
+               BuildableName = "GameplayKitDSL.framework"
                BlueprintName = "iOS_GameplayKitDSL"
                ReferencedContainer = "container:GameplayKitDSL.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94B74ACB22071013002F98DF"
-            BuildableName = "iOS_GameplayKitDSL.framework"
+            BuildableName = "GameplayKitDSL.framework"
             BlueprintName = "iOS_GameplayKitDSL"
             ReferencedContainer = "container:GameplayKitDSL.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94B74ACB22071013002F98DF"
-            BuildableName = "iOS_GameplayKitDSL.framework"
+            BuildableName = "GameplayKitDSL.framework"
             BlueprintName = "iOS_GameplayKitDSL"
             ReferencedContainer = "container:GameplayKitDSL.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94B74ACB22071013002F98DF"
-            BuildableName = "iOS_GameplayKitDSL.framework"
+            BuildableName = "GameplayKitDSL.framework"
             BlueprintName = "iOS_GameplayKitDSL"
             ReferencedContainer = "container:GameplayKitDSL.xcodeproj">
          </BuildableReference>

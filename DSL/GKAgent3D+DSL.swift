@@ -1,5 +1,5 @@
 //
-//  GKObstacleGraph+DSL.swift
+//  GKAgent3D+DSL.swift
 //  GameplayKitDSL
 //
 //  Created by Maxim Volgin on 03/02/2019.
@@ -8,10 +8,10 @@
 
 import GameplayKit
 
-extension GKObstacleGraph {
+extension GKAgent3D {
     @objc
     @discardableResult
-    public func apply(_ closure: (GKObstacleGraph) -> Void) -> GKObstacleGraph {
+    public override func apply(_ closure: (GKAgent3D) -> Void) -> GKAgent3D {
         closure(self)
         return self
     }

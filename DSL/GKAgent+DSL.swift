@@ -9,6 +9,15 @@
 import GameplayKit
 
 extension GKAgent {
+    @objc
+    @discardableResult
+    public func apply(_ closure: (GKAgent) -> Void) -> GKAgent {
+        closure(self)
+        return self
+    }
+}
+
+extension GKAgent {
     
     public static func agent2D(apply closure: (GKAgent2D) -> Void) -> GKAgent2D {
         let agent = GKAgent2D()
