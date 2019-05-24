@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import macOS_GameplayKitDSL
+@testable import GameplayKitDSL
 
 class macOS_GameplayKitDSLTests: XCTestCase {
 
