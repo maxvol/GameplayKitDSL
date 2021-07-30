@@ -8,6 +8,7 @@
 
 import GameplayKit
 
+@available(macOS 10.13, iOS 11, *)
 extension GKEntity {
     @objc
     @discardableResult
@@ -17,6 +18,7 @@ extension GKEntity {
     }
 }
 
+@available(macOS 10.13, iOS 11, *)
 extension GKEntity {
     
     public static func entity(apply closure: (GKEntity) -> Void) -> GKEntity {

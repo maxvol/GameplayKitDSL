@@ -1,5 +1,5 @@
 //
-//  GKComponent+DSL.swift
+//  GKAgent3D+DSL.swift
 //  GameplayKitDSL
 //
 //  Created by Maxim Volgin on 03/02/2019.
@@ -8,10 +8,11 @@
 
 import GameplayKit
 
-extension GKComponent {
+@available(macOS 10.13, iOS 11, *)
+extension GKAgent3D {
     @objc
     @discardableResult
-    public func apply(_ closure: (GKComponent) -> Void) -> GKComponent {
+    public override func apply(_ closure: (GKAgent3D) -> Void) -> GKAgent3D {
         closure(self)
         return self
     }

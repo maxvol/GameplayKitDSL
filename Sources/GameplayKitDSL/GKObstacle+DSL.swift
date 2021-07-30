@@ -8,6 +8,7 @@
 
 import GameplayKit
 
+@available(macOS 10.13, iOS 11, *)
 extension GKObstacle {
     @objc
     @discardableResult
@@ -17,6 +18,7 @@ extension GKObstacle {
     }
 }
 
+@available(macOS 10.13, iOS 11, *)
 extension GKObstacle {
     
     public static func circle(radius: Float, apply closure: (GKCircleObstacle) -> Void) -> GKCircleObstacle {

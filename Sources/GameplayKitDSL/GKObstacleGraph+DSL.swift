@@ -1,18 +1,18 @@
 //
-//  GKCompositeBehavior+DSL.swift
+//  GKObstacleGraph+DSL.swift
 //  GameplayKitDSL
 //
 //  Created by Maxim Volgin on 03/02/2019.
 //  Copyright © 2019 Maxim Volgin. All rights reserved.
 //
 
-
 import GameplayKit
 
-extension GKCompositeBehavior {
+@available(macOS 10.13, iOS 11, *)
+extension GKObstacleGraph {
     @objc
     @discardableResult
-    public override func apply(_ closure: (GKCompositeBehavior) -> Void) -> GKCompositeBehavior {
+    public func apply(_ closure: (GKObstacleGraph) -> Void) -> GKObstacleGraph {
         closure(self)
         return self
     }

@@ -44,8 +44,3 @@ let obstacles = [
         }
     ]
 ```
-
-Carthage setup -
-```
-github "maxvol/GameplayKitDSL" ~> 0.0.6
-```

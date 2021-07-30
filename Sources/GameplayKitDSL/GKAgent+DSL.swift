@@ -8,6 +8,7 @@
 
 import GameplayKit
 
+@available(macOS 10.13, iOS 11, *)
 extension GKAgent {
     @objc
     @discardableResult
@@ -24,6 +25,7 @@ extension GKAgent {
     }
 }
 
+@available(macOS 10.13, iOS 11, *)
 extension GKAgent {
     
     public static func agent2D(apply closure: (GKAgent2D) -> Void) -> GKAgent2D {

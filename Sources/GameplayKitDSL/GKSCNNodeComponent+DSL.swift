@@ -8,6 +8,7 @@
 
 import GameplayKit
 
+@available(macOS 10.13, iOS 11, *)
 extension GKSCNNodeComponent {
     @objc
     @discardableResult

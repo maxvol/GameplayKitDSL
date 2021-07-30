@@ -1,5 +1,5 @@
 //
-//  GKObstacleGraph+DSL.swift
+//  GKComponent+DSL.swift
 //  GameplayKitDSL
 //
 //  Created by Maxim Volgin on 03/02/2019.
@@ -8,10 +8,11 @@
 
 import GameplayKit
 
-extension GKObstacleGraph {
+@available(macOS 10.13, iOS 11, *)
+extension GKComponent {
     @objc
     @discardableResult
-    public func apply(_ closure: (GKObstacleGraph) -> Void) -> GKObstacleGraph {
+    public func apply(_ closure: (GKComponent) -> Void) -> GKComponent {
         closure(self)
         return self
     }

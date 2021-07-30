@@ -8,6 +8,7 @@
 
 import GameplayKit
 
+@available(macOS 10.13, iOS 11, *)
 extension GKBehavior {
     @objc
     @discardableResult
@@ -17,6 +18,7 @@ extension GKBehavior {
     }
 }
 
+@available(macOS 10.13, iOS 11, *)
 extension GKBehavior {
     
     public static func composite(apply closure: (GKCompositeBehavior) -> Void) -> GKCompositeBehavior {
